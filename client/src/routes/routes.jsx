@@ -1,25 +1,19 @@
 import ProtectedRoute from "../components/ProtectedRoute";
 import AdminDashboard from "../pages/AdminDashboard";
+import ChatPage from "../pages/ChatPage";
 import LandingPage from "../pages/LandingPage";
 import LoginPage from "../pages/LoginPage";
 
 const routes = [
     {
-        path: '/',
-        element:
-            <ProtectedRoute>
-                <LandingPage />
-            </ProtectedRoute>
-    },
-    {
         path: '/login',
         element: <LoginPage />
     },
     {
-        path: '/user',
+        path: '/',
         element:
-            <ProtectedRoute users={['admin']}>
-                <AdminDashboard />
+            <ProtectedRoute>
+                <ChatPage />
             </ProtectedRoute>
     },
 ]

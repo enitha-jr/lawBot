@@ -1,5 +1,3 @@
-import '../styles/InputField.css';
-
 function InputField(props) {
     return (
         <div>

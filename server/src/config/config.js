@@ -7,7 +7,7 @@ const getEnvVar = (name, defaultValue) => {
 
 const dbConfig = {
   HOST: getEnvVar('DB_HOST', ''),
-  DB: getEnvVar('DB_DB', ''),
+  DB: getEnvVar('DB_NAME', ''),
   PORT: getEnvVar('DB_PORT', ''),
   USER: getEnvVar('DB_USER', ''),
   PASSWORD: getEnvVar('DB_PASSWORD', ''),
