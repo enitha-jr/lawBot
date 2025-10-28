@@ -1,5 +1,11 @@
 /client/node_modules
 
+/client/.env
+
+/LawBot/venv
+
+/LawBot/.env
+
 /server/node_modules
 
 /server/.env
