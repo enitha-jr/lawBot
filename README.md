@@ -1,2 +1,2 @@
-# harvey
+#lawBot
 AI Legal Assistant
